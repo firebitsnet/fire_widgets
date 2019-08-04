@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="assets_end" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script src="/fire_widgets/static/src/js/field_widget.js" type="text/javascript" />
+            <link href="/fire_widgets/static/src/scss/field_widget.scss" rel="stylesheet" type="text/scss" />
+            <link href="/fire_widgets/static/src/css/field_widget.css" rel="stylesheet" type="text/css" />
+        </xpath>
+    </template>
+
+</odoo>
